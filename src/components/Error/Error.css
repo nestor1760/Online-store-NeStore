@@ -1,0 +1,40 @@
+.errorCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  border-radius: 8px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+.error-component {
+  text-align: center;
+  animation: shake 0.5s ease-in infinite;
+}
+
+.error-component h1 {
+  font-size: 48px;
+  color: #ff0000;
+}
+
+.error-component p {
+  font-size: 24px;
+}

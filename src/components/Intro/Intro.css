@@ -1,0 +1,20 @@
+.text-container {
+  background: rgba(5, 4, 4, 0.907);
+  color: #fff;
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тінь тексту */
+}
+
+
+.textTitle {
+  font-size: 45px;
+}
